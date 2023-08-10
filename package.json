@@ -1,0 +1,17 @@
+{
+  "name": "zod_message_bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "tsup": "^7.2.0",
+    "typescript": "^4.9.5"
+  }
+}
